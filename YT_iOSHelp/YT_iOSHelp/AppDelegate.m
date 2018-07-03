@@ -36,7 +36,8 @@
 #import "YT_UIButton_VC.h"//按钮
 #import "YT_UISwitch_VC.h"//开关
 #import "YT_UIMenuController_VC.h"//菜单
-
+#import "YT_UIImageView_VC.h"//图片视图
+#import "YT_UICollectionView_VC.h"//集合视图
 #import "YT_UIActivityViewController_VC.h"//分享
 #import "YT_TouchID_VC.h"//指纹
 @interface AppDelegate ()

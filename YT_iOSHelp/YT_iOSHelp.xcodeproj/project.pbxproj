@@ -17,6 +17,7 @@
 		7A780E9120EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9020EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m */; };
 		7A780E9420EB819600A6A062 /* YT_TouchID_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9320EB819600A6A062 /* YT_TouchID_VC.m */; };
 		7A780E9720EB82BC00A6A062 /* YT_UIImageView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9620EB82BC00A6A062 /* YT_UIImageView_VC.m */; };
+		7A780E9A20EB85CE00A6A062 /* YT_UICollectionView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9920EB85CE00A6A062 /* YT_UICollectionView_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		7A780E9320EB819600A6A062 /* YT_TouchID_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_TouchID_VC.m; sourceTree = "<group>"; };
 		7A780E9520EB82BC00A6A062 /* YT_UIImageView_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UIImageView_VC.h; sourceTree = "<group>"; };
 		7A780E9620EB82BC00A6A062 /* YT_UIImageView_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UIImageView_VC.m; sourceTree = "<group>"; };
+		7A780E9820EB85CE00A6A062 /* YT_UICollectionView_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UICollectionView_VC.h; sourceTree = "<group>"; };
+		7A780E9920EB85CE00A6A062 /* YT_UICollectionView_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UICollectionView_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				7A780E8B20EB703300A6A062 /* YT_UIMenuController_VC.m */,
 				7A780E9520EB82BC00A6A062 /* YT_UIImageView_VC.h */,
 				7A780E9620EB82BC00A6A062 /* YT_UIImageView_VC.m */,
+				7A780E9820EB85CE00A6A062 /* YT_UICollectionView_VC.h */,
+				7A780E9920EB85CE00A6A062 /* YT_UICollectionView_VC.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				7A780E8C20EB703300A6A062 /* YT_UIMenuController_VC.m in Sources */,
 				7A780E9720EB82BC00A6A062 /* YT_UIImageView_VC.m in Sources */,
 				7A780E9420EB819600A6A062 /* YT_TouchID_VC.m in Sources */,
+				7A780E9A20EB85CE00A6A062 /* YT_UICollectionView_VC.m in Sources */,
 				7A780E6C20EB4FA300A6A062 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
