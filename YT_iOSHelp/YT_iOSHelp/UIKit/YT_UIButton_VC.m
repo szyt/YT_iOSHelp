@@ -47,6 +47,8 @@
      UIControlStateDisabled     禁用类型
      UIControlStateSelected     选中类型
      */
+    //设置内边距 上左下右
+    btn.contentEdgeInsets = UIEdgeInsetsMake(0,10, 0, 0);
     //设置标题颜色
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     //设置按钮文字阴影颜色
