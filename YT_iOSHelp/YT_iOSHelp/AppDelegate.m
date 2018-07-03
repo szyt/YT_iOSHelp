@@ -32,6 +32,7 @@
 
 #import "AppDelegate.h"
 
+#import "YT_UILable_VC.h"
 @interface AppDelegate ()
 
 @end
@@ -44,7 +45,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController=[[UIViewController alloc] init];
+    
+    self.window.rootViewController=[[YT_UILable_VC alloc] init];
     
     return YES;
 }
