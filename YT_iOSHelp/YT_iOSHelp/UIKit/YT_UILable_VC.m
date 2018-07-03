@@ -65,6 +65,13 @@
      NSShadowAttributeName 阴影
      */
     label.attributedText=attrStr;
+    
+    //计算文本的高度
+    CGSize size = [label.text boundingRectWithSize:CGSizeMake(label.frame.size.width, MAXFLOAT)
+                                           options: NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
+                                        attributes:@{NSFontAttributeName:label.font}
+                                           context:nil].size;
+    NSLog(@"%@",NSStringFromCGSize(size));
 }
 #pragma mark -视图 加载完成 即将显示 已经显示 即将消失 已经消失
 //视图已经加载完成

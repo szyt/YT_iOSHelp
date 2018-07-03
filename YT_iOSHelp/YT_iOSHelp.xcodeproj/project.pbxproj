@@ -11,6 +11,7 @@
 		7A780E7420EB4FA600A6A062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A780E7320EB4FA600A6A062 /* Assets.xcassets */; };
 		7A780E7A20EB4FA600A6A062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E7920EB4FA600A6A062 /* main.m */; };
 		7A780E8320EB517600A6A062 /* YT_UILable_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E8220EB517600A6A062 /* YT_UILable_VC.m */; };
+		7A780E8620EB63C600A6A062 /* YT_UIButton_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E8520EB63C600A6A062 /* YT_UIButton_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		7A780E7920EB4FA600A6A062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A780E8120EB517600A6A062 /* YT_UILable_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UILable_VC.h; sourceTree = "<group>"; };
 		7A780E8220EB517600A6A062 /* YT_UILable_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UILable_VC.m; sourceTree = "<group>"; };
+		7A780E8420EB63C600A6A062 /* YT_UIButton_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UIButton_VC.h; sourceTree = "<group>"; };
+		7A780E8520EB63C600A6A062 /* YT_UIButton_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UIButton_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 			children = (
 				7A780E8120EB517600A6A062 /* YT_UILable_VC.h */,
 				7A780E8220EB517600A6A062 /* YT_UILable_VC.m */,
+				7A780E8420EB63C600A6A062 /* YT_UIButton_VC.h */,
+				7A780E8520EB63C600A6A062 /* YT_UIButton_VC.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A780E8320EB517600A6A062 /* YT_UILable_VC.m in Sources */,
+				7A780E8620EB63C600A6A062 /* YT_UIButton_VC.m in Sources */,
 				7A780E7A20EB4FA600A6A062 /* main.m in Sources */,
 				7A780E6C20EB4FA300A6A062 /* AppDelegate.m in Sources */,
 			);
