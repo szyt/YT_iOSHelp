@@ -14,6 +14,9 @@
 		7A780E8620EB63C600A6A062 /* YT_UIButton_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E8520EB63C600A6A062 /* YT_UIButton_VC.m */; };
 		7A780E8920EB6F3600A6A062 /* YT_UISwitch_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E8820EB6F3600A6A062 /* YT_UISwitch_VC.m */; };
 		7A780E8C20EB703300A6A062 /* YT_UIMenuController_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E8B20EB703300A6A062 /* YT_UIMenuController_VC.m */; };
+		7A780E9120EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9020EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m */; };
+		7A780E9420EB819600A6A062 /* YT_TouchID_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9320EB819600A6A062 /* YT_TouchID_VC.m */; };
+		7A780E9720EB82BC00A6A062 /* YT_UIImageView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A780E9620EB82BC00A6A062 /* YT_UIImageView_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,12 @@
 		7A780E8820EB6F3600A6A062 /* YT_UISwitch_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UISwitch_VC.m; sourceTree = "<group>"; };
 		7A780E8A20EB703300A6A062 /* YT_UIMenuController_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UIMenuController_VC.h; sourceTree = "<group>"; };
 		7A780E8B20EB703300A6A062 /* YT_UIMenuController_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UIMenuController_VC.m; sourceTree = "<group>"; };
+		7A780E8F20EB7F3C00A6A062 /* YT_UIActivityViewController_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UIActivityViewController_VC.h; sourceTree = "<group>"; };
+		7A780E9020EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UIActivityViewController_VC.m; sourceTree = "<group>"; };
+		7A780E9220EB819600A6A062 /* YT_TouchID_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_TouchID_VC.h; sourceTree = "<group>"; };
+		7A780E9320EB819600A6A062 /* YT_TouchID_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_TouchID_VC.m; sourceTree = "<group>"; };
+		7A780E9520EB82BC00A6A062 /* YT_UIImageView_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_UIImageView_VC.h; sourceTree = "<group>"; };
+		7A780E9620EB82BC00A6A062 /* YT_UIImageView_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_UIImageView_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,8 @@
 		7A780E6920EB4FA300A6A062 /* YT_iOSHelp */ = {
 			isa = PBXGroup;
 			children = (
+				7A780E8E20EB7F1700A6A062 /* 指纹 */,
+				7A780E8D20EB7F0900A6A062 /* 分享 */,
 				7A780E8020EB514100A6A062 /* UIKit */,
 				7A780E6A20EB4FA300A6A062 /* AppDelegate.h */,
 				7A780E6B20EB4FA300A6A062 /* AppDelegate.m */,
@@ -84,8 +95,28 @@
 				7A780E8820EB6F3600A6A062 /* YT_UISwitch_VC.m */,
 				7A780E8A20EB703300A6A062 /* YT_UIMenuController_VC.h */,
 				7A780E8B20EB703300A6A062 /* YT_UIMenuController_VC.m */,
+				7A780E9520EB82BC00A6A062 /* YT_UIImageView_VC.h */,
+				7A780E9620EB82BC00A6A062 /* YT_UIImageView_VC.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7A780E8D20EB7F0900A6A062 /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+				7A780E8F20EB7F3C00A6A062 /* YT_UIActivityViewController_VC.h */,
+				7A780E9020EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m */,
+			);
+			path = "分享";
+			sourceTree = "<group>";
+		};
+		7A780E8E20EB7F1700A6A062 /* 指纹 */ = {
+			isa = PBXGroup;
+			children = (
+				7A780E9220EB819600A6A062 /* YT_TouchID_VC.h */,
+				7A780E9320EB819600A6A062 /* YT_TouchID_VC.m */,
+			);
+			path = "指纹";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +191,10 @@
 				7A780E8620EB63C600A6A062 /* YT_UIButton_VC.m in Sources */,
 				7A780E8920EB6F3600A6A062 /* YT_UISwitch_VC.m in Sources */,
 				7A780E7A20EB4FA600A6A062 /* main.m in Sources */,
+				7A780E9120EB7F3C00A6A062 /* YT_UIActivityViewController_VC.m in Sources */,
 				7A780E8C20EB703300A6A062 /* YT_UIMenuController_VC.m in Sources */,
+				7A780E9720EB82BC00A6A062 /* YT_UIImageView_VC.m in Sources */,
+				7A780E9420EB819600A6A062 /* YT_TouchID_VC.m in Sources */,
 				7A780E6C20EB4FA300A6A062 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U872SXS3MZ;
 				INFOPLIST_FILE = YT_iOSHelp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U872SXS3MZ;
 				INFOPLIST_FILE = YT_iOSHelp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
