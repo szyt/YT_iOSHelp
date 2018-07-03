@@ -32,8 +32,10 @@
 
 #import "AppDelegate.h"
 
-#import "YT_UILable_VC.h"
-#import "YT_UIButton_VC.h"
+#import "YT_UILable_VC.h"//文本标签
+#import "YT_UIButton_VC.h"//按钮
+#import "YT_UISwitch_VC.h"//开关
+#import "YT_UIMenuController_VC.h"//菜单
 @interface AppDelegate ()
 
 @end
@@ -48,7 +50,9 @@
     [self.window makeKeyAndVisible];
     
 //    self.window.rootViewController=[[YT_UILable_VC alloc] init];
-    self.window.rootViewController=[[YT_UIButton_VC alloc] init];
+//    self.window.rootViewController=[[YT_UIButton_VC alloc] init];
+//    self.window.rootViewController=[[YT_UISwitch_VC alloc] init];
+    self.window.rootViewController=[[YT_UIMenuController_VC alloc] init];
     
     return YES;
 }
